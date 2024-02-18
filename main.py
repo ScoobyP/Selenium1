@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-s = Service("/Users/ishanp/Downloads/chromedriver-mac-x64/chromedriver")
-driver = webdriver.Chrome(service=s)
+
+driver = webdriver.Chrome()
 try:
     driver = webdriver.Chrome()
     driver.get('https://www.google.com')
